@@ -16,20 +16,5 @@
         }
     }
 
-    public class StandardEngine : AbstractEngine
-    {
-        public StandardEngine(int size) 
-            : base(size, false)
-        {
-        }
-    }
-
-    public class TurboEngine : AbstractEngine
-    {
-        public TurboEngine(int size) : base(size, true)
-        {
-        }
-    }
-
 
 }
