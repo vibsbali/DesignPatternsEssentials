@@ -6,7 +6,8 @@ namespace InitialHierarchy
 {
     interface IVehicle
     {
-        int Size { get; }
-        bool Turbo { get; }
+        IEngine Engine { get; }
+        VehicleColour Colour { get; }
+        void Paint(VehicleColour color);
     }
 }
